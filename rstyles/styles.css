@@ -1,0 +1,139 @@
+/*set height here so you can scroll and set defaults of the box model here */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%; *
+	/* overflow-x: hidden; */
+}
+/* Lists */
+
+ul 
+{
+list-style:none;
+margin: 5px 0 5px 15px;
+display:block;
+}
+
+/* visits
+text-decoration to get rid of the underline  */
+a:active, a:visited, a:link { text-decoration:none; }
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 116px;
+}
+
+/* header */
+#rheaderwrap
+{
+background:#7ff9cf;
+position: fixed;
+top:0px;
+z-index:100;
+color:white;
+height:auto;
+width:100%;
+ box-sizing: border-box;
+}
+
+#rheader
+{
+max-width:1024px;
+  margin: 0 auto 0 auto;
+  height:auto;
+width:100%;
+}
+
+#rlogo {
+  padding: 13px 0px 20px 0px;
+  width: auto;
+  height: auto;
+  position: relative;
+  float: left;
+    box-sizing: border-box;
+}
+
+#ractions
+{
+
+  width: auto;
+  height: auto;
+  position: relative;
+  float: right;
+  padding-top: 23px;
+  z-index: 100;
+}
+
+
+#ractions ul{
+  position: relative;
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+}
+
+#ractions a{
+  width: auto;
+  height: auto;
+  background: #A5FBDD;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  color:black;
+  padding:10px;
+}
+
+/* navigation bar */
+#rnavwrap
+{
+background: #D2FDEE;
+position:fixed;
+z-index:100;
+top:90px; /*move inline a bit with with the header */
+width:100%;
+height:auto;
+
+
+}
+#rnav
+{
+position:relative;
+float:left;
+background: #6699FF; /*sets color of the nav bar */
+  margin: 0 auto 0 auto; /* push to the right */
+    max-width: 1012px;
+	width: 100%;
+  height: auto;
+    box-sizing: border-box;
+	
+}
+/*this puts the navigation bar inline using float left */
+
+#rnavbar
+{
+margin:0; 
+padding:0;
+
+}
+#rnavbar li{ 
+width:auto; 
+height:auto;
+ position:relative;
+ float:left;
+ 
+ }
+#rnavbar a{
+width:auto;
+ height:auto; 
+ position:relative;
+ float:left;
+ color:#FFF;
+ padding:10px 14px 10px 14px;
+ font-size:16px;
+ line-height:1;
+ border-right:1px solid #0A4083
+ }
